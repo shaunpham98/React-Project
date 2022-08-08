@@ -1,0 +1,25 @@
+.search-form {
+ min-height: 50px;
+ display: flex;
+ justify-content: center;
+ justify-content: center;
+}
+
+.search-bar {
+width: 30%;
+padding: 10px;
+border-radius: 1rem;
+}
+
+.search-button {
+    margin-left: 5px;
+border-radius: 1rem;
+background-color: #1F2937;
+color: #E5E7EB;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

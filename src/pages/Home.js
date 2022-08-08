@@ -1,9 +1,10 @@
 import React from 'react'
+import './Pages.css'
 
 function Home() {
   return (
     <div>
-        <h1>Home</h1>
+        <h1 className="heading">Home</h1>
     </div>
   )
 }

@@ -1,0 +1,15 @@
+.modules {
+    margin: 2rem;
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color:#1F2937;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+    text-transform: capitalize;
+}
+
+.modules img {
+    border-radius: 50%;
+}
