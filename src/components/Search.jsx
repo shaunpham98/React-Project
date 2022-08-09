@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./Search.css"
+import "./Search.css"
 
 const Search =({title, calories, image, url, meal}) => {
   return (
