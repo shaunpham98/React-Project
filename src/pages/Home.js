@@ -3,8 +3,9 @@ import './Pages.css'
 
 function Home() {
   return (
-    <div>
-        <h1 className="heading">Home</h1>
+    <div className="heading fav">
+        <h1>Home</h1>
+        <img src="https://img.icons8.com/doodle/48/000000/home--v1.png" width="50px" height ="50px"/>
     </div>
   )
 }
