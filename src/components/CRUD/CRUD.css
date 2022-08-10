@@ -1,0 +1,20 @@
+button {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    width: 100px;
+}
+
+table {
+    margin: auto;
+}
+
+.new-form {
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.new-form input {
+    margin: auto;
+}
+

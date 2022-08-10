@@ -9,3 +9,41 @@
     align-items: center;
     
 }
+
+.presentation {
+    display: flex;
+    max-width: 100%-5%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-top {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    width: 100px;
+}
+
+table,  th, tr, td {
+    border: 1px solid black;
+    width: 1000px;
+    height: 100px;
+}
+
+.table-item {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.table-div {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

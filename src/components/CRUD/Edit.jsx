@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import {Button, Form} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import RecipeList from './List';
 import {Link, useNavigate} from 'react-router-dom'
 
@@ -35,17 +33,17 @@ function Edit() {
 
   return (
     <div>
-        <Form>
-            <Form.Group>
+        <form>
+            <input>
                 <form type="text" placeholder="Enter Recipe" value={name} required onChange={(e) => setName(e.target.value)}>
                 </form>
-            </Form.Group>
-            <Form.Group>
+            </input>
+            <input>
                 <form type="text" placeholder="Enter Rating" value={rating} required onChange={(e) => setRating(e.target.value)}>
                 </form>
-            </Form.Group>
-            <Button onClick={(e) => onSubmit(e)} type="submit">Amend</Button>
-        </Form>
+            </input>
+            <button onClick={(e) => onSubmit(e)} type="submit">Amend</button>
+        </form>
     </div>
   )
 }

@@ -42,7 +42,7 @@ function Recipe() {
         <div className="recipe-list">
         {recipe.map(recipe =>(
           <Search
-          key={recipe.recipe.label} 
+          key={recipe.recipe.label} f
           title={recipe.recipe.label} 
           calories={recipe.recipe.calories.toFixed(2)}
           image={recipe.recipe.image}
